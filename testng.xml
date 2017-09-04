@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parameterization Test Suite">
+	<test name="logInPage">
+		<parameter name="user" value="KowalskiJan"/>
+		<parameter name="password" value="test111"/>
+		<classes>
+			<class name="Helion4.HelionTest4" />
+		</classes>
+	</test>
+	
+</suite>

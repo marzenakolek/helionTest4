@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Parameterization Test Suite]">
+  <parameter name="password" value="test111"/>
+  <parameter name="browser" value="Firefox"/>
+  <parameter name="user" value="KowalskiJan"/>
+  <test name="logInPage(failed)">
+    <parameter name="password" value="test111"/>
+    <parameter name="user" value="KowalskiJan"/>
+    <classes>
+      <class name="Helion4.HelionTest4">
+        <methods>
+          <include name="beforMethod"/>
+          <include name="beforMethod"/>
+          <include name="findBrokenLinks"/>
+          <include name="deleteCookie"/>
+          <include name="extrctCookie"/>
+          <include name="addCookie"/>
+          <include name="scroll_PageStstus"/>
+          <include name="iconSocialActive"/>
+          <include name="scrollPage"/>
+          <include name="afterMethod"/>
+          <include name="_logInPage"/>
+          <include name="printPageErrors"/>
+          <include name="findAllLinks"/>
+        </methods>
+      </class> <!-- Helion4.HelionTest4 -->
+    </classes>
+  </test> <!-- logInPage(failed) -->
+  <test name="scroll_PageStstus(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="Helion4.HelionTest4">
+        <methods>
+          <include name="beforMethod"/>
+          <include name="beforMethod"/>
+          <include name="iconSocialActive"/>
+          <include name="findBrokenLinks"/>
+          <include name="scrollPage"/>
+          <include name="afterMethod"/>
+          <include name="_logInPage"/>
+          <include name="printPageErrors"/>
+          <include name="findAllLinks"/>
+          <include name="scroll_PageStstus"/>
+        </methods>
+      </class> <!-- Helion4.HelionTest4 -->
+    </classes>
+  </test> <!-- scroll_PageStstus(failed) -->
+  <test name="findAllLinks(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="Helion4.HelionTest4">
+        <methods>
+          <include name="beforMethod"/>
+          <include name="beforMethod"/>
+          <include name="findBrokenLinks"/>
+          <include name="deleteCookie"/>
+          <include name="extrctCookie"/>
+          <include name="addCookie"/>
+          <include name="scroll_PageStstus"/>
+          <include name="iconSocialActive"/>
+          <include name="scrollPage"/>
+          <include name="afterMethod"/>
+          <include name="_logInPage"/>
+          <include name="printPageErrors"/>
+          <include name="findAllLinks"/>
+        </methods>
+      </class> <!-- Helion4.HelionTest4 -->
+    </classes>
+  </test> <!-- findAllLinks(failed) -->
+</suite> <!-- Failed suite [Parameterization Test Suite] -->

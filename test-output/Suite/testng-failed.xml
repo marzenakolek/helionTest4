@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="none">
+  <parameter name="browser" value="Firefox"/>
+  <test name="scroll_PageStstus(failed)" parallel="none">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="Helion4.HelionTest4">
+        <methods>
+          <include name="beforMethod"/>
+          <include name="beforMethod"/>
+          <include name="beforMethod"/>
+          <include name="beforMethod"/>
+          <include name="findBrokenLinks"/>
+          <include name="scroll_PageStstus"/>
+          <include name="iconSocialActive"/>
+          <include name="scrollPage"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="_logInPage"/>
+          <include name="printPageErrors"/>
+          <include name="findAllLinks"/>
+        </methods>
+      </class> <!-- Helion4.HelionTest4 -->
+    </classes>
+  </test> <!-- scroll_PageStstus(failed) -->
+  <test name="findBrokenLinks(failed)" parallel="none">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="Helion4.HelionTest4">
+        <methods>
+          <include name="beforMethod"/>
+          <include name="beforMethod"/>
+          <include name="beforMethod"/>
+          <include name="beforMethod"/>
+          <include name="findBrokenLinks"/>
+          <include name="deleteCookie"/>
+          <include name="extrctCookie"/>
+          <include name="addCookie"/>
+          <include name="scroll_PageStstus"/>
+          <include name="iconSocialActive"/>
+          <include name="scrollPage"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="_logInPage"/>
+          <include name="printPageErrors"/>
+          <include name="findAllLinks"/>
+        </methods>
+      </class> <!-- Helion4.HelionTest4 -->
+    </classes>
+  </test> <!-- findBrokenLinks(failed) -->
+  <test name="extrctCookie()(failed)" parallel="none">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="Helion4.HelionTest4">
+        <methods>
+          <include name="beforMethod"/>
+          <include name="beforMethod"/>
+          <include name="beforMethod"/>
+          <include name="beforMethod"/>
+          <include name="findBrokenLinks"/>
+          <include name="deleteCookie"/>
+          <include name="extrctCookie"/>
+          <include name="addCookie"/>
+          <include name="scroll_PageStstus"/>
+          <include name="iconSocialActive"/>
+          <include name="scrollPage"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="_logInPage"/>
+          <include name="printPageErrors"/>
+          <include name="findAllLinks"/>
+        </methods>
+      </class> <!-- Helion4.HelionTest4 -->
+    </classes>
+  </test> <!-- extrctCookie()(failed) -->
+  <test name="findAllLinks(failed)" parallel="none">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="Helion4.HelionTest4">
+        <methods>
+          <include name="beforMethod"/>
+          <include name="beforMethod"/>
+          <include name="beforMethod"/>
+          <include name="beforMethod"/>
+          <include name="findBrokenLinks"/>
+          <include name="deleteCookie"/>
+          <include name="extrctCookie"/>
+          <include name="addCookie"/>
+          <include name="scroll_PageStstus"/>
+          <include name="iconSocialActive"/>
+          <include name="scrollPage"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="_logInPage"/>
+          <include name="printPageErrors"/>
+          <include name="findAllLinks"/>
+        </methods>
+      </class> <!-- Helion4.HelionTest4 -->
+    </classes>
+  </test> <!-- findAllLinks(failed) -->
+</suite> <!-- Failed suite [Suite] -->
