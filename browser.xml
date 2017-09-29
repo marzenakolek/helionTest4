@@ -1,0 +1,40 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+ 
+<suite name="Suite" parallel="none">
+ 
+ <test name="scroll_PageStstus">
+ 
+ <parameter name="browser" value="Chrome" />
+ 
+ <classes>
+			<class name="Helion4.HelionTest4" />
+		</classes>
+ </test>
+ <test name="findBrokenLinks">
+ 
+ <parameter name="browser" value="Chrome" />
+ 
+ <classes>
+			<class name="Helion4.HelionTest4" />
+		</classes>
+ </test>
+ <test name="extrctCookie()">
+ 
+ <parameter name="browser" value="Chrome" />
+ 
+ <classes>
+			<class name="Helion4.HelionTest4" />
+		</classes>
+ </test>
+ 
+ <test name="findAllLinks">
+ 
+ <parameter name="browser" value="Firefox" />
+ 
+ <classes>
+			<class name="Helion4.HelionTest4" />
+		</classes>
+ 
+ </test>
+ 
+</suite>
